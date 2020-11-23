@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Switch, Route, Link, BrowserRouter as Router } from "react-router-dom";
 import axios from 'axios';
 import io from 'socket.io-client';
-import jwt_decode from 'jwt-decode';
 
 import AddProduct from './components/AddProduct';
 import Cart from './components/Cart';
@@ -147,7 +146,7 @@ export default class App extends Component {
       description: comment,
     }
     const API_URL = 'https://service.canum.io/purchases';
-    const result = axios.post(API_URL, data, config)
+    axios.post(API_URL, data, config)
     .then(result => {
       console.log('OK --> ');
       console.log(result);
@@ -196,7 +195,7 @@ export default class App extends Component {
     }
     this.routerRef.current.history.push("/checkout");
 
-    const cart = this.state.cart;
+    // const cart = this.state.cart;
 
     // const products = this.state.products.map(p => {
     //   if (cart[p.name]) {

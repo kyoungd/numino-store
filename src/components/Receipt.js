@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import withContext from '../withContext';
 import CartItem from './CartItem';
 import QRCode from 'react-qr-code';
 
 const Receipt = props => {
-  const { cart, order } = props.context;
+  const { cart, order, waitForTransactionComplete } = props.context;
+  const id = order.id;
+  console.log(order);
   useEffect(() => {
-    console.log(order);
-    props.context.waitForTransactionComplete(order.id);
-  }, []);
+    console.log('useEffect, waitForTransactionComplete');
+    waitForTransactionComplete(id);
+  }, [waitForTransactionComplete, id]);
   const cartKeys = Object.keys(cart || {});
   return (
     <>

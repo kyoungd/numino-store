@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import withContext from "../withContext";
 import { Redirect } from "react-router-dom";
-import axios from 'axios';
 
 const initState = {
   name: "",
@@ -22,7 +21,7 @@ class AddProduct extends Component {
     const { name, price, stock, shortDesc, description } = this.state;
 
     if (name && price) {
-      const id = Math.random().toString(36).substring(2) + Date.now().toString(36);
+      // const id = Math.random().toString(36).substring(2) + Date.now().toString(36);
 
       // await axios.post(
       //   'http://localhost:3001/products',
