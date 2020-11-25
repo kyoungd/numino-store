@@ -2,35 +2,39 @@
     "products": [
         {
             "id": "hdmdu0t80yjkfqselfc",
-            "name": "shoes",
+            "name": "Pain Drops",
+            "image": "images/drops.jpg",
             "stock": 2,
-            "price": 399.99,
-            "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
-            "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
+            "price": 44.95,
+            "shortDesc": "UHemp CBD Pain Drops",
+            "description": "CBDezic is Blaine Labs’ unique, CBD-powered pain management solution for arthritis, muscle pain, tendinitis, soreness and more. Developed with menthol and camphor for fast-acting pain relief, and enhanced with the anti-inflammatory properties of hemp-derived CBD oil, CBDezic provides quick, effective, and long-last pain relief."
         },
         {
             "id": "3dc7fiyzlfmkfqseqam",
-            "name": "bags",
+            "name": "Pain Relief Gel",
+            "image": "images/gel.jpg",
             "stock": 20,
-            "price": 299.99,
-            "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
-            "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
+            "price": 49.95,
+            "shortDesc": "UHemp Pain Relief Gel",
+            "description": "Pain management solution for arthritis, muscle pain, tendinitis, soreness and more. Fast-acting pain relief, and enhanced with the anti-inflammatory properties of hemp-derived CBD gel, CBDezic provides quick, effective, and long-last pain relief."
         },
         {
             "id": "aoe8wvdxvrkfqsew67",
-            "name": "shirts",
+            "name": "Woud Care Gel",
+            "image": "images/wound_care.jpg",
             "stock": 10,
-            "price": 149.99,
-            "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
-            "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
+            "price": 49.99,
+            "shortDesc": "UHemp Would Care Gel",
+            "description": "Effective and Economical Products: We make innovative wound care technologies accessible and affordable across the care continuum."
         },
         {
             "id": "bmfrurdkswtkfqsf15j",
-            "name": "shorts",
+            "name": "Candles",
+            "image": "images/candle3.png",
             "stock": 5,
             "price": 109.99,
-            "shortDesc": "Nulla facilisi. Curabitur at lacus ac velit ornare lobortis.",
-            "description": "Cras sagittis. Praesent nec nisl a purus blandit viverra. Ut leo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Fusce a quam."
+            "shortDesc": "Hemp Candles",
+            "description": "Hemp candles are hand poured in San Diego California and have just the right amount of fragrance so as to be subtle, not overwhelming."
         }
     ]
 }
